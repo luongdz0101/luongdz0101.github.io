@@ -1,0 +1,59 @@
+:root{
+    --white-color: #fff;
+    --back-color: #000;
+    --text-color:#657786;
+    --blue-color:#0499a8;
+
+    --header-height: 60px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #e6fafa;
+    color: #0499a8;
+    padding: 8px 18px;
+    border-radius: 12px;
+}
+
+
+
+.cl{
+    color: #0499a8;
+   
+}
+
+.mr{
+    margin-right: 4px;
+}
+
+.pd-18{
+    padding-top: 18px;
+}
+.list__item-header-user{
+    position: relative   ;
+}
+
+.list__item-img{
+    height: 24px;
+    width: 24px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.list__item-name{
+    margin-left: 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    position: relative;
+    top: 1px;
+}
