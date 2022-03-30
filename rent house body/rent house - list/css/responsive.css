@@ -1,0 +1,42 @@
+
+
+/* Mobile and Tablet: width < 1024px */
+
+@media only screen and (max-width: 63.9375em){
+  
+}
+/* Mobile: width >= 1024px */
+
+@media only screen and (max-width: 46.1875em) {
+    .off{
+        display: none;
+    }
+    
+    .header_mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 12px;
+    }
+    .header__img {
+        width: 50%;
+    }
+
+    .header__logo{
+        display: block;
+    }
+
+    .input__chile{
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Tablet: width >= 740px ans width < 1024px */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+
+    
+}
+
